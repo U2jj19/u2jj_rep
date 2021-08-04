@@ -6,7 +6,11 @@ public class Palindrome {
 
 	public static void main(String[] args) {
 		
-		System.out.println(ispalindrome("MAM"));
+		Scanner sc = new Scanner(System.in);
+		
+		String str = sc.nextLine();
+		
+		System.out.println(ispalindrome(str));
 
 	}
 	public static boolean ispalindrome(String s)
